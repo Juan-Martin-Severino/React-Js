@@ -2,11 +2,12 @@ import React from "react";
 import { Navbar } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
+import CartWidget from "./CartWidget";
 
 const NavBar = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="light" variant="light">
         <Container>
           <Navbar.Brand href="#home">Estudio Color</Navbar.Brand>
           <Nav className="me-auto">
@@ -15,6 +16,7 @@ const NavBar = () => {
             <Nav.Link href="#pricing">SERVICIOS</Nav.Link>
             <Nav.Link href="#pricing">UBICACION</Nav.Link>
             <Nav.Link href="#pricing">CONTACTO</Nav.Link>
+            <CartWidget />
           </Nav>
         </Container>
       </Navbar>
