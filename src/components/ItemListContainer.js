@@ -1,11 +1,9 @@
 import React from "react";
-import { Badge } from "react-bootstrap";
 
-const ItemListContainer = () => {
+const ItemListContainer = ({ greeting }) => {
   return (
     <>
-      <p>No hay productos en el carrito</p>
-      <Badge>0</Badge>
+      <h4>{greeting}</h4>
     </>
   );
 };
