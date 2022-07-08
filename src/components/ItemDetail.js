@@ -1,8 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-const Item = ({ producto }) => {
-  console.log(producto);
+const ItemDetail = (producto) => {
   return (
     <>
       <Card style={{ width: "18rem" }}>
@@ -17,4 +16,4 @@ const Item = ({ producto }) => {
   );
 };
 
-export default Item;
+export default ItemDetail;
