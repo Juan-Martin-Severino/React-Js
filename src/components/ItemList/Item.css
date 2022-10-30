@@ -1,0 +1,13 @@
+.Card {
+  background-color: grey !important;
+  margin: 1%;
+  padding: 1%;
+}
+
+.modal-footer{
+    justify-content: space-around;
+}
+
+button {
+  border: solid 1px #444 !important;
+}
